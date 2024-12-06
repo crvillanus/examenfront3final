@@ -1,0 +1,65 @@
+.main {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #007bff; 
+}
+
+.fav-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.fav-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+.fav-item button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.fav-item button:hover {
+  background-color: #0056b3;
+}
+
+.noFavoritesCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; 
+  font-size: 1.5rem; 
+  color: #333;
+  text-align: center; 
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.goBackButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.goBackButton:hover {
+  background-color: #0056b3;
+}
