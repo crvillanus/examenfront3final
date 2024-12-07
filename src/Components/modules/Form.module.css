@@ -38,9 +38,13 @@
 }
 
 .error {
-  color: #ff4d4f;
-  font-size: 0.9rem;
-  margin-bottom: 1rem;
+  color: red;
+  margin-top: 10px;
+}
+
+.success {
+  color: green;
+  margin-top: 10px;
 }
 
 .submitButton {
